@@ -1,3 +1,4 @@
 export default function(){
-    console.log("Sample program");
+    let i = 1;
+    console.log('Sample program');
 } 

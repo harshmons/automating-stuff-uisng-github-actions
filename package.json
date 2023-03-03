@@ -4,7 +4,8 @@
   "description": "This repository explains how GitHub actions automate lot of manual stuff for developers and other team members",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc src/index.ts --outDir dist"
+    "build": "tsc src/index.ts --outDir dist",
+    "lint": "eslint ."
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,9 @@
   },
   "homepage": "https://github.com/harshmons/automating-stuff-uisng-github-actions#readme",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.54.0",
+    "@typescript-eslint/parser": "^5.54.0",
+    "eslint": "^8.35.0",
     "typescript": "^4.9.5"
   }
 }
