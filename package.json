@@ -1,0 +1,23 @@
+{
+  "name": "automating-stuff-uisng-github-actions",
+  "version": "1.0.0",
+  "description": "This repository explains how GitHub actions automate lot of manual stuff for developers and other team members",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc src/index.ts --outDir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harshmons/automating-stuff-uisng-github-actions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harshmons/automating-stuff-uisng-github-actions/issues"
+  },
+  "homepage": "https://github.com/harshmons/automating-stuff-uisng-github-actions#readme",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
