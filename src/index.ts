@@ -1,3 +1,3 @@
-export default function(){
-    console.log('Sample program');
+export const isEven = (x:number):boolean => {
+    return x%2 ===0;
 } 
