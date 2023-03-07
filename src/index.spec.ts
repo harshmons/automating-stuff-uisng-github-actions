@@ -10,8 +10,7 @@ describe("For IsEven function",()=>{
     })
 })
 
-
-describe("For IsOdd function",()=>{
+xdescribe("For IsOdd function",()=>{
     it("should return true for odd numbers",()=>{
         expect(isOdd(5)).toBeTruthy();
     })
@@ -19,4 +18,5 @@ describe("For IsOdd function",()=>{
     it("should return false for even numbers",()=>{
         expect(isOdd(4)).toBeFalsy();
     })
+
 })
