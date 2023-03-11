@@ -4,4 +4,5 @@ export const isEven = (x:number):boolean => {
 
 export const isOdd = (x:number):boolean =>{
     return !isEven(x);
+    // test
 }
