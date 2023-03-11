@@ -5,4 +5,5 @@ export const isEven = (x:number):boolean => {
 export const isOdd = (x:number):boolean =>{
     return !isEven(x);
     // dummy changes to trigger jenkins pipeline
+    // dummy changes
 }
